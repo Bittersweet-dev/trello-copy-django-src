@@ -1,0 +1,5 @@
+# python binary #
+__pycache__
+
+# django default DB after migration #
+db.sqlite3
