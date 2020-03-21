@@ -53,6 +53,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# TODO do not use this for deployment
+CORS_ORIGIN_ALLOW_ALL=True # only for dev
+CORS_ALLOW_CREDENTIALS=True # only for dev
 CORS_ORIGIN_WHITELIST = (
     'http://localhost',
     'http://localhost:3000',
